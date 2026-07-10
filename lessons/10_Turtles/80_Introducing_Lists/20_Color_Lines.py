@@ -15,10 +15,8 @@ tina.speed(2)                           # Move at a moderate speed, not too fast
 colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 
 for color in colors:                            # loop through the colors
-    ... # Your code here
-
-# 2) Make another square, but put the colors in reverse order, using a negative index. 
-
-... # Your code here
+    tina.pencolor(color)
+    tina.forward(200)                       # Move tina forward by the forward distance
+    tina.right(-90)                         # Turn tina right by 90 degrees
 
 turtle.exitonclick()                     # Close the window when we click on it

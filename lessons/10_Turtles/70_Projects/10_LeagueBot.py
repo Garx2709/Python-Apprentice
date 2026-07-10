@@ -46,5 +46,5 @@ t.speed(3)  # Set a moderate speed
 for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
     t.goto(x, y)
 
-    tina.turtlesize(10*10)
+t.turtlesize(10,10)
 turtle.exitonclick() 
